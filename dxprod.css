@@ -1,28 +1,60 @@
+
+
+
+
 	.footer {
 		position: fixed;
 		left: 0;
-		bottom: 0;
+		bottom: 0;	
 		width: 100%;
 		text-align: center;
 	}
 
 body{
+
 	background-color: grey;
 	font-family: sans-serif;
 	font-weight: bold;
 
 }
 
-.lsection{
-	width: 50%;
-	text-align: left;
+.halfpage{
+	width: 45%;
+	text-align: center;
+	border-style: border-bottom;
 }
-
-	.rsection {
-		width: 50%;
-		text-align: left;
-	}
 
 .margin{
 	margin-bottom: 20%;
+}
+
+.flex-container{
+	display: flex;
+}
+
+#flexWrap{
+	flex-wrap: wrap;
+}
+
+#flexColumn{
+	flex-direction: column;
+}
+
+.sidebar{
+	width: 20%;
+	border-style: border-box;
+	float: right;
+
+}
+
+.flexCenter{
+	align-items: center;
+}
+
+#profileList{
+	width: 20%;
+}
+
+.content{
+	flex: 1 0 auto;
 }
