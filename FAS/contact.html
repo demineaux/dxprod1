@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="wide=device-width, initial-scale=1">
+	<meta name="keywords" content="appliance, repair, washer, dryer, Maytag, fridge, oven, range, stove, Whirlpool, Jenn-Air, KitchenAid, Roper, Amana, icemaker, microwave">
+	<meta name="description" content="Information about Fields Appliance Service.">
+	<link rel="stylesheet" type="text/css" href="fas.css">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<head>
+		<title>Fields Appliance Service</title>
+	</head>
+	<body>
+
+	<!-- Navigation -->
+		<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card w3-black" style="z-index:3;width:250px;" id="mySidebar">
+			<a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="CompanyLogo.gif" style="width:100%;"></a>
+			<a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+			<a class="w3-bar-item w3-button" href="index.html">Home</a>
+			<a class="w3-bar-item w3-button" href="aboutus.html">About Us</a>			
+			<a class="w3-bar-item w3-button" href="brands.html">Brands</a>
+			<a class="w3-bar-item w3-button" href="schedule.html">Schedule</a>			
+			<a class="w3-bar-item w3-button w3-amber" href="contact.html">Contact</a>
+			<a class="w3-bar-item w3-button" href="techtrack.html">Technician Tracking</a>
+			<a class="w3-bar-item w3-button" href="jobstatus.html">Job Status</a>
+		</nav>
+	<!-- Overlay -->
+		<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+		<div class="w3-main" style="margin-left:250px;">
+	<!-- Header -->
+	<div class="container">
+		<header class="w3-container w3-black" style="padding:64px 32px">	
+			<h1 class="w3-xxxlarge w3-text-yellow mobileshrink">FIELDS APPLIANCE SERVICE</h1>
+			  	
+		</header>
+		
+	
+	<!-- Body -->
+		<div id="myTop" class="w3-container w3-top w3-black w3-large">
+		  <p><i class="fa fa-bars w3-button w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+		  <span id="myIntro" class="w3-hide w3-text-yellow">Fields Appliance Service</span></p>
+		</div>
+		
+		<div class="body">
+			<div class="flex-container halfpage">
+				<h2>CONTACT US</h2>
+				<div class="w3-black w3-center w3-margin w3-container">
+					<p class="w3-border">Office: 407-299-2040</p>
+			  
+			  		<p class="w3-border">Fax: 407-578-8414</p>
+			  	
+			  		<p class="w3-border">Toll Free: 877-891-6810</p>
+				</div>
+			<div class="w3-margin w3-container w3-round w3-border">
+				To schedule service with us now, click <a href="schedule.html">here</a>. If you have any questions or need to order parts, please call our office or send us an e-mail using the form below.
+			</div>
+			<div class="w3-margin w3-container w3-round w3-border">
+					<div class="w3-margin w3-container w3-round w3-border w3-text-blue">
+						<h3>Mailing Address</h3>
+					</div>
+				<p>7110 Edgewater Dr. <br> Orlando, FL 32860</p>
+			</div>
+			<div class="w3-margin w3-container w3-round w3-border">
+					<div class="w3-margin w3-container w3-round w3-border w3-text-green">
+						<h3>Hours of Operation</h3>
+					</div>
+				<p>Monday - Friday 8:00 A.M. - 5:00 P.M. </p>
+						
+			</div>
+			<div class="w3-margin w3-container w3-round w3-border">
+					<div class="w3-margin w3-container w3-round w3-border w3-text-purple">
+						<h3>E-mail</h3>
+					</div>
+				<form action="mailer.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('from','','RisEmail','subject','','R','verif_box','','R','message','','R');return document.MM_returnValue">
+
+					Your e-mail:<br>
+					<input name="from" type="text" id="from"  value="">
+					<br>
+					
+					Subject:<br>
+					<input name="subject" type="text" id="subject"  value="">
+					<br>
+
+					Message:<br>
+					<textarea name="message" class="halfpage" rows="9" id="message" ></textarea>
+					<br>
+					<input id="submitForm" class="w3-black w3-round" name="Submit" type="submit" value="Send Message">
+				</form>
+		</div>
+	<!-- Footer -->
+		
+		<div class="footer">
+			<p>Copyright &copy; 2018 EADX Productions</p>
+		</div>
+
+		
+	</div>
+	
+	<!-- Scripts -->
+		<script>
+		// Open and close the sidebar on medium and small screens
+		function w3_open() {
+		    document.getElementById("mySidebar").style.display = "block";
+		    document.getElementById("myOverlay").style.display = "block";
+		}
+		function w3_close() {
+		    document.getElementById("mySidebar").style.display = "none";
+		    document.getElementById("myOverlay").style.display = "none";
+		}
+
+		// Change style of top container on scroll
+		window.onscroll = function() {myFunction()};
+		function myFunction() {
+		    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+		        document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+		        document.getElementById("myIntro").classList.add("w3-show-inline-block");
+		    } else {
+		        document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+		        document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+		    }
+		}
+
+		// Accordions
+		function myAccordion(id) {
+		    var x = document.getElementById(id);
+		    if (x.className.indexOf("w3-show") == -1) {
+		        x.className += " w3-show";
+		        x.previousElementSibling.className += " w3-theme";
+		    } else { 
+		        x.className = x.className.replace("w3-show", "");
+		        x.previousElementSibling.className = 
+		        x.previousElementSibling.className.replace(" w3-theme", "");
+		    }
+		}
+		</script>
+	</body>
+
+</html>
