@@ -27,6 +27,13 @@ body{
 	border-style: border-bottom;
 }
 
+.halfpageImg{
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	border-style: border-bottom;
+}
+
 .flexcontainer{
 	display:flex;
 	flex-wrap: wrap;
@@ -62,32 +69,31 @@ body{
 	}
 	.mobileshrink {
 	width: 100%;
+	}
+	.halfpageImg{
+		width: 100%;
+	}
 }
 
 
-a {
-	text-decoration: none;
-}
 
-a:link {
-	text-decoration: none;
-	
-}
-
-a:visited {
-	text-decoration: none;
-	color: green;
-}
-
-a:hover {
-	text-decoration: none;
-	color: blue;
-}
-a:active {
-	text-decoration: none;
-	color: blue;
-}
 
 #submitForm {
 	margin-top: 10px;
+}
+
+#imgCenter {
+
+	vertical-align: right;
+}
+
+.amber{
+	border-style: solid;
+	border-color: #ffc007;
+}
+
+@media only screen and (min-width: 800px) {
+
+
+
 }
