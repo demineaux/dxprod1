@@ -1,15 +1,70 @@
 body{
-
 	background-color: white;
+1
 	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
 	height: 100%;
 }
 
+#index{
+	background: url("kitchenaid1.jpeg");
+	
+	background-size: 150%;
+	background-position: 0px 300px;
+}
+
+#aboutUs{
+	background: url("kitchenaid.jpg");
+	
+	background-position:0px 300px;
+	background-size: 125%;
+}
+
+#brands{
+	background: url("laundry2.png");
+	background-size: 125%;
+	background-position:0px 400px;
+
+}
+
+#schedule{
+	background: url("laundry1.jpg");
+	background-size: 100%;
+	background-position: 0px 350px;
+}
+
+#contact{
+	background: url("kitchen4.jpg");
+	background-size: 100%;
+	background-position: 0px 350px;
+}
+#techtrack{
+	background: url("kitchen5.jpg");
+	background-size: 150%;
+	background-position: 0px 350px;
+}
+#jobstatus{
+	background: url("laundry3.png");
+	background-size: 100%;
+	background-position: 0px 350px;
+}
+
+
+h2{
+	text-shadow: 2px 2px black;
+}
+
+h3{
+	text-shadow: 2px 2px black;
+}
+
+
+
 .body{
 	padding: 10px;
 	padding-bottom: 60px;
+
 
 }
 
@@ -73,6 +128,36 @@ body{
 	.halfpageImg{
 		width: 100%;
 	}
+
+	.mobileShrinkImg{
+		width: 100%;
+	}
+	#index{
+		background-size: 1200px;
+	}
+	#aboutUs{
+		background-size: 1000px;
+	}
+	#brands{
+		background-size: 900px;
+		background-position: -100px 400px;
+	}
+	#schedule{
+		background-size: 1800px;
+		background-position: -200px 400px;
+	}
+	#contact{
+		background-size: 1400px;
+		background-position: -100px 400px;
+	}
+	#techtrack{
+		background-size: 2000px;
+		background-position: -100px 400px;
+	}
+	#jobstatus{
+		background-size: 1000px;
+		background-position -150px 400px;
+	}
 }
 
 
@@ -97,3 +182,11 @@ body{
 
 
 }
+
+
+.shaded{
+	
+	background: rgba(0, 0, 0, 0.5);
+}
+
+
