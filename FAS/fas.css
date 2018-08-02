@@ -8,48 +8,59 @@ body{
 }
 
 #index{
-	background: url("kitchenaid1.jpeg");
+	background: url("images/kitchenaid1.jpeg");
 	
 	background-size: 150%;
 	background-position: 0px 300px;
 }
 
 #aboutUs{
-	background: url("kitchenaid.jpg");
+	background: url("images/kitchenaid.jpg");
 	
 	background-position:0px 300px;
 	background-size: 125%;
 }
 
 #brands{
-	background: url("laundry2.png");
+	background: url("images/laundry2.png");
 	background-size: 125%;
 	background-position:0px 400px;
 
 }
 
 #schedule{
-	background: url("laundry1.jpg");
+	background: url("images/laundry1.jpg");
 	background-size: 100%;
 	background-position: 0px 350px;
 }
 
 #contact{
-	background: url("kitchen4.jpg");
+	background: url("images/kitchen4.jpg");
 	background-size: 100%;
 	background-position: 0px 350px;
 }
 #techtrack{
-	background: url("kitchen5.jpg");
+	background: url("images/kitchen5.jpg");
 	background-size: 150%;
-	background-position: 0px 350px;
+	background-position: 0px 250px;
 }
 #jobstatus{
-	background: url("laundry3.png");
+	background: url("images/laundry3.png");
 	background-size: 100%;
 	background-position: 0px 350px;
 }
-
+#employment{
+	background: url("images/handshake.jpg");
+	background-size: 100%;
+	background-position: 0px 350px;
+	background-color: black;
+}
+#servicearea{
+	background: url("images/map.jpg");
+	background-size: 2000px;
+	background-position: 0px 350px;
+	background-color: black;
+}
 
 h2{
 	text-shadow: 2px 2px black;
@@ -58,6 +69,11 @@ h2{
 h3{
 	text-shadow: 2px 2px black;
 }
+
+h5{
+	text-shadow: 2px 2px black;
+}
+
 
 
 
@@ -156,7 +172,15 @@ h3{
 	}
 	#jobstatus{
 		background-size: 1000px;
-		background-position -150px 400px;
+		background-position: -150px 400px;
+	}
+	#employment{
+		background-size: 1500px;
+		background-position: -400px 400px;
+	}
+	#servicearea{
+		background-size: 1500px;
+		background-position: -300px 400px;
 	}
 }
 
@@ -186,7 +210,12 @@ h3{
 
 .shaded{
 	
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.opaque{
+	
+	background: rgba(255, 255, 255, 0.1);
 }
 
 
